@@ -1,0 +1,546 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  font-family: Arial;
+  color: white;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: rgba(30, 41, 59, 0.7);
+  padding: 20px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  margin-top: 20px;
+}
+
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #22c55e;
+}
+
+button.clear {
+  background: #ef4444;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.spinner {
+  border: 4px solid #334155;
+  border-top: 4px solid #22c55e;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+.status.phishing {
+  color: #ef4444;
+}
+
+.status.safe {
+  color: #22c55e;
+}
+
+.progress {
+  background: #334155;
+  height: 14px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(to right, green, red);
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+.email-preview {
+  margin-top: 15px;
+  padding: 10px;
+  background: #020617;
+  border-radius: 10px;
+}
+
+.highlight {
+  background: red;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.box {
+  background: #020617;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.details {
+  margin-top: 15px;
+}
+
+.word-analysis {
+  margin-top: 20px;
+}
+
+.word-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.mini-bar {
+  flex: 1;
+  height: 8px;
+  background: #334155;
+  border-radius: 5px;
+}
+
+.mini-fill {
+  height: 100%;
+  background: red;
+  border-radius: 5px;
+}
+
+
+/* Smooth fade animation */
+.dashboard {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Glowing textarea */
+textarea {
+  width: 100%;
+  min-height: 180px;
+  border-radius: 12px;
+  resize: none;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  padding: 12px;
+  background: #020617;
+  color: white;
+  transition: 0.3s;
+}
+
+
+textarea:focus {
+  outline: none;
+  border: 2px solid #22c55e;
+  box-shadow: 0 0 10px #22c55e;
+}
+
+/* Button hover animation */
+button {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #22c55e;
+}
+
+/* Progress animation */
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, green, red);
+  border-radius: 10px;
+  transition: width 0.6s ease-in-out;
+}
+
+/* Cards hover */
+.card:hover {
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .app {
+    padding: 20px;
+  }
+}
+
+
+.scan-line {
+  height: 3px;
+  background: #22c55e;
+  animation: scan 1s infinite;
+}
+
+@keyframes scan {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+
+.app {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* LEFT SIDE (INPUT) */
+.left-panel {
+  flex: 1;
+}
+
+/* RIGHT SIDE (OUTPUT) */
+.right-panel {
+  flex: 1;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  overflow-x: hidden;
+}
+
+
+
+textarea {
+  background: #020617;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+textarea:focus {
+  border: 2px solid #22c55e;
+  box-shadow: 0 0 15px #22c55e;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+}
+
+.app {
+  position: relative;
+  z-index: 10;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2, 6, 23, 0.6);
+  z-index: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2, 6, 23, 0.6);
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 0 0 10px var(--accent);
+}
+
+/* ------------------------------
+   Theme (safe / phishing / neutral)
+   ------------------------------ */
+:root {
+  --accent: #00ffcc; /* neutral cyan */
+  --accent2: #22c55e;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --highlight-bg: rgba(0, 255, 204, 0.18);
+  --bar1: #00ffcc;
+  --bar2: #22c55e;
+  --overlay-bg: rgba(2, 6, 23, 0.55);
+}
+
+.app[data-theme="phishing"] {
+  --accent: #ef4444;
+  --accent2: #f97316;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --highlight-bg: rgba(239, 68, 68, 0.28);
+  --bar1: #ef4444;
+  --bar2: #f43f5e;
+}
+
+.app[data-theme="safe"] {
+  --accent: #22c55e;
+  --accent2: #06b6d4;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --highlight-bg: rgba(34, 197, 94, 0.28);
+  --bar1: #22c55e;
+  --bar2: #06b6d4;
+}
+
+.app[data-theme="neutral"] {
+  --accent: #00ffcc;
+  --accent2: #22c55e;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --highlight-bg: rgba(0, 255, 204, 0.18);
+  --bar1: #00ffcc;
+  --bar2: #22c55e;
+}
+
+/* ------------------------------
+   Layout + interaction
+   ------------------------------ */
+.overlay {
+  pointer-events: none;
+  background: var(--overlay-bg);
+}
+
+.app {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  z-index: 10;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+}
+
+/* ------------------------------
+   Components
+   ------------------------------ */
+.card {
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+button {
+  background: var(--accent);
+}
+
+button:hover {
+  box-shadow: 0 0 12px var(--accent);
+}
+
+button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+button.clear {
+  background: var(--danger);
+}
+
+.spinner {
+  border-top-color: var(--accent);
+}
+
+.scan-line {
+  background: var(--accent);
+}
+
+.status.phishing {
+  color: var(--danger);
+}
+
+.status.safe {
+  color: var(--success);
+}
+
+.progress {
+  background: rgba(148, 163, 184, 0.25);
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--bar1), var(--bar2));
+  border-radius: 10px;
+  transition: width 0.6s ease-in-out;
+}
+
+.email-preview {
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.highlight {
+  background: var(--highlight-bg);
+  color: white;
+}
+
+.mini-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 5px;
+}
+
+textarea:focus {
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 15px var(--accent);
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 16px;
+  }
+
+  .layout {
+    gap: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 14px;
+    margin-top: 12px;
+  }
+
+  textarea {
+    min-height: 140px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons button {
+    width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ------------------------------
+   Input/Output polish (overrides)
+   ------------------------------ */
+.input-card {
+  margin-top: 0;
+}
+
+.meta-row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  color: rgba(148, 163, 184, 0.9);
+}
+
+.meta-row .muted {
+  color: rgba(148, 163, 184, 0.65);
+}
+
+.idle-state {
+  margin-top: 20px;
+}
+
+.idle-state h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.email-preview {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.highlight {
+  background: var(--highlight-bg);
+  color: white;
+  box-shadow: 0 0 14px rgba(0, 255, 204, 0.25);
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

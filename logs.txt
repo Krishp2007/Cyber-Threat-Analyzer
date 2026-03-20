@@ -1,0 +1,98 @@
+2026-03-19 20:42:17.568198 | verify your account now http://secure-login.xyz
+ | {'prediction': 'phishing', 'confidence': 0.693, 'ml_confidence': 0.997, 'rule_score': 0.25, 'url_count': 1, 'keywords': ['verify', 'account'], 'suspicious_urls': ['http://secure-login.xyz'], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'Suspicious URLs detected', 'ML model strongly confident']}
+2026-03-19 21:39:50.206844 | hello, meet me
+ | {'prediction': 'safe', 'confidence': 0.406, 'ml_confidence': 0.676, 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': []}
+2026-03-19 21:43:09.307448 | hello, meet me
+verify
+ | {'prediction': 'phishing', 'confidence': 0.503, 'ml_confidence': 0.764, 'rule_score': 0.15, 'url_count': 0, 'keywords': ['verify'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify']"]}
+2026-03-19 21:43:29.173189 | hello, meet me
+verify account
+ | {'prediction': 'phishing', 'confidence': 0.643, 'ml_confidence': 0.947, 'rule_score': 0.25, 'url_count': 0, 'keywords': ['verify', 'account'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'ML model strongly confident']}
+2026-03-19 21:43:41.771851 | hello, meet me
+verify account
+
+i'm Scammer | {'prediction': 'phishing', 'confidence': 0.571, 'ml_confidence': 0.827, 'rule_score': 0.25, 'url_count': 0, 'keywords': ['verify', 'account'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'ML model strongly confident']}
+2026-03-19 21:43:49.831017 | hello, meet me
+verify account
+
+
+ | {'prediction': 'phishing', 'confidence': 0.643, 'ml_confidence': 0.947, 'rule_score': 0.25, 'url_count': 0, 'keywords': ['verify', 'account'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'ML model strongly confident']}
+2026-03-19 21:43:58.445388 | hello, meet me
+verify account
+
+
+Im' scam
+ | {'prediction': 'phishing', 'confidence': 0.596, 'ml_confidence': 0.869, 'rule_score': 0.25, 'url_count': 0, 'keywords': ['verify', 'account'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'ML model strongly confident']}
+2026-03-19 21:43:58.992832 | hello, meet me
+verify account
+
+
+Im' scam
+ | {'prediction': 'phishing', 'confidence': 0.596, 'ml_confidence': 0.869, 'rule_score': 0.25, 'url_count': 0, 'keywords': ['verify', 'account'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'ML model strongly confident']}
+2026-03-19 21:43:59.211503 | hello, meet me
+verify account
+
+
+Im' scam
+ | {'prediction': 'phishing', 'confidence': 0.596, 'ml_confidence': 0.869, 'rule_score': 0.25, 'url_count': 0, 'keywords': ['verify', 'account'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify', 'account']", 'ML model strongly confident']}
+2026-03-19 21:59:29.225315 |  | {'prediction': 'safe', 'confidence': 0.367, 'ml_confidence': 0.611, 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': []}
+2026-03-19 22:15:55.071878 | Heyy im spammer ,be ready to ger monet | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.263), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': [], 'word_scores': []}
+2026-03-19 22:23:05.708815 | hiend | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.11), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': [], 'word_scores': []}
+2026-03-19 22:23:08.175178 | hiend an | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.333), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': [], 'word_scores': []}
+2026-03-19 22:23:09.709690 | hiend and | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.144), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': [], 'word_scores': []}
+2026-03-19 22:23:14.284906 | hiend and | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.144), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': [], 'word_scores': []}
+2026-03-19 22:23:22.855441 | hiend and im s | {'prediction': 'safe', 'confidence': np.float64(0.377), 'ml_confidence': np.float64(0.828), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': ['ML model strongly confident'], 'word_scores': []}
+2026-03-19 22:23:23.913241 | hiend and im soam | {'prediction': 'safe', 'confidence': np.float64(0.377), 'ml_confidence': np.float64(0.828), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': ['ML model strongly confident'], 'word_scores': []}
+2026-03-19 22:23:41.855192 | hiend and im spam, ver | {'prediction': 'safe', 'confidence': np.float64(0.367), 'ml_confidence': np.float64(0.814), 'rule_score': 0, 'url_count': 0, 'keywords': [], 'suspicious_urls': [], 'reasons': ['ML model strongly confident'], 'word_scores': []}
+2026-03-19 22:23:52.499011 | hiend and im spam, verify heret to be safe | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.341), 'rule_score': 0.15, 'url_count': 0, 'keywords': ['verify'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify']"], 'word_scores': [{'word': 'verify', 'score': 0.15}]}
+2026-03-19 22:24:16.315150 | hiend and im spam, verify here to be safe | {'prediction': 'safe', 'confidence': np.float64(0.424), 'ml_confidence': np.float64(0.831), 'rule_score': 0.15, 'url_count': 0, 'keywords': ['verify'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify']", 'ML model strongly confident'], 'word_scores': [{'word': 'verify', 'score': 0.15}]}
+2026-03-19 22:24:38.503500 | hiend and im spam, verify here to be safe
+
+https://chatgpt.com/g/g-p-69b956a6690481918ff38054d858d726-phishing-attack-project/c/69b95664-81e8-8321-85d0-ce3a8bf0e734 | {'prediction': 'phishing', 'confidence': np.float64(0.624), 'ml_confidence': np.float64(0.831), 'rule_score': 0.15, 'url_count': 1, 'keywords': ['verify'], 'suspicious_urls': [], 'reasons': ["Suspicious keywords: ['verify']", 'ML model strongly confident'], 'word_scores': [{'word': 'verify', 'score': 0.15}]}
+2026-03-19 22:33:11.290376 | Heyy suruu | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.333), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:33:21.584049 | Heyy suruu hack | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.364), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:40:28.033912 | gb ri | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.213), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:40:29.050349 | gb riD | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.213), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:40:30.976223 | gb riDB | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.213), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:40:33.661430 | gb riDBbfg | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.213), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:41:02.108494 | vsdfnd | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:41:23.029489 | bdzfb | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:41:36.315780 | bdzfbb cv | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:45:04.654371 | ncsasv
+ | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-19 22:46:00.223520 | ncsasv
+vn | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 17:38:41.929417 | jhfkj.
+ | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 17:38:51.222379 | jhfkj.
+helloo gold | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.464), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 17:38:55.736859 | jhfkj.
+helloo gold  | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.422), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 17:38:58.169556 | jhfkj.
+helloo gold d | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.443), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 17:39:00.503186 | jhfkj.
+helloo gold digger | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.444), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:38:14.272501 | Hello im spammer
+ | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.439), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:48:44.865482 | Hello  | {'prediction': 'safe', 'confidence': np.float64(0.266), 'ml_confidence': np.float64(0.657), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:48:50.197827 | Hello | {'prediction': 'safe', 'confidence': np.float64(0.266), 'ml_confidence': np.float64(0.657), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:48:52.792720 | Helloooooooooooo | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.107), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:54:06.698366 | fffhhhhhhhhhhhhhhhhhh | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:54:31.151828 | fffhhhhhhhhhhhhhhhhhh  fffhhhhhhhhhhhhhhhhhh fffhhhhhhhhhhhhhhhhhh | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 19:56:07.875635 | ncvsbs | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 20:16:13.959961 | bkjhl
+
+
+ | {'prediction': 'safe', 'confidence': 0, 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 0, 'urls': [], 'suspicious_urls': []}
+2026-03-20 20:16:26.489980 | bkjhl
+
+
+https://ledgerx-sdl.onrender.com/login/?next=/dashboard/ | {'prediction': 'safe', 'confidence': np.float64(0.253), 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': ['Suspicious URLs detected'], 'word_scores': [], 'url_count': 1, 'urls': ['https://ledgerx-sdl.onrender.com/login/?next=/dashboard/'], 'suspicious_urls': ['https://ledgerx-sdl.onrender.com/login/?next=/dashboard/']}
+2026-03-20 20:40:07.951188 | bkjhl
+
+
+https://ledgerx-sdl.onrender.com/login/?next=/dacjshboard/ | {'prediction': 'safe', 'confidence': np.float64(0.253), 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': ['Suspicious URLs detected'], 'word_scores': [], 'url_count': 1, 'urls': ['https://ledgerx-sdl.onrender.com/login/?next=/dacjshboard/'], 'suspicious_urls': ['https://ledgerx-sdl.onrender.com/login/?next=/dacjshboard/']}
+2026-03-20 20:40:13.866430 | bkjhl
+
+
+https://ledgerx-sdl.onrender.com | {'prediction': 'safe', 'confidence': np.float64(0.253), 'ml_confidence': np.float64(0.223), 'rule_score': 0, 'keywords': [], 'reasons': [], 'word_scores': [], 'url_count': 1, 'urls': ['https://ledgerx-sdl.onrender.com'], 'suspicious_urls': []}
