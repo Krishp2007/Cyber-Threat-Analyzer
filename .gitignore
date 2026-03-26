@@ -1,0 +1,14 @@
+# Ignore heavy datasets
+*.csv
+Phishing_Email.csv
+
+# Ignore local python environments
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore frontend build artifacts
+phishing-frontend/node_modules/
+phishing-frontend/build/
+
+Model_Train.ipynb
