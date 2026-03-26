@@ -20,7 +20,9 @@ function App() {
     setResult(null);
 
     try {
-      const res = await axios.post("/predict", {
+      const API = process.env.REACT_APP_API_URL || "";
+      
+      const res = await axios.post(`${API}/predict`, {
         email: emailToAnalyze
       });
       setResult(res.data);
